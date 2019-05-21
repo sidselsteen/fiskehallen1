@@ -125,6 +125,14 @@ ul {
     margin-left: 2%;
 }
 
+hr {
+    height: 4px; 
+    background: #BA0808; 
+    width: 450px; 
+    border-bottom-color: #BA0808;
+    border-style: hidden; 
+   
+}
 
 
 a {
@@ -176,13 +184,10 @@ h3 {
     
 }
 
-hr {
-    height: 4px; 
-    background: #BA0808; 
-    width: 450px; 
-    border-bottom-color: #BA0808;
-    border-style: hidden; 
-   
+
+.afdelinger a:hover {
+    color: #BA0808;
+
 }
 
 
@@ -959,10 +964,6 @@ footer {
         margin-top: %;
         margin-left: 20%;
     }
-
-   
-    
-    /* Forside */ 
     
     .covertekst {
         margin-top: 12%; 
@@ -994,6 +995,12 @@ footer {
     .center {
         margin-bottom: 5%;
     }
+
+    
+    
+    
+    
+    
     /* Om */
 
     .container .vi {
