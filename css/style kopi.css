@@ -1,0 +1,604 @@
+html body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+.logo {
+    width: 120px;
+}
+
+
+/* Vi har fået inspiration til vores navigation via dette link: 
+https://github.com/michellemotivates/flexnavigation?fbclid=IwAR0_c0ZLoXCn9eAdJbDW3Rfxj8GEq2y-4KfjU59VtbynVhvAlqYw3OsyYUk 
+*/
+
+#burger {
+    display: flex;
+    align-items: center;
+    margin-left: .5em;
+}
+
+.smicons {
+    display: flex;
+
+}
+
+.smicon {
+    width: 30px;
+    height: 30px;
+    padding: 4%;
+}
+
+#main-nav a {
+    display: block;
+    margin-left: 1em;
+    font-size: 1.4em;
+    line-height: 1.4em;
+
+}
+
+#main-nav a:hover {
+    color: red;
+
+}
+
+.active {
+    color: #BA0808;
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+nav {
+    background-color: white;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    opacity: 0.9;
+    display: flex;
+}
+
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 100px;
+    font-family: DIN Condensed;
+    font-size: 15px;
+
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    margin-top: 55px;
+
+}
+
+
+
+
+
+/* Forside */
+
+#bghav {
+    position: relative;
+    background-image: url("../images/forside.gif");
+    opacity: 0.8;
+    margin-top: 10em;
+    height: 800px;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+
+.forsidetekst {
+    font-family: DIN Condensed;
+    color: white;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: DIN Condensed;
+}
+
+h3 {
+    font-family: DIN Condensed;
+    font-size: 30px;
+}
+
+.center {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.voresafdelinger {
+    flex-direction: column;
+}
+
+
+.vores {
+    font-size: 40px;
+    color: #BA0808;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.afdelinger {
+    color: black;
+}
+
+#video {
+    align-content: center;
+    align-content: center;
+}
+
+
+
+/* RESTAURANT */
+
+.opsaetning {
+    display: grid;
+    grid-gap: 2%;
+    margin: 5%;
+
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+        'boks1''boks1'
+        'boks2''boks3'
+        'boks4''boks4'
+}
+
+
+#boks1 {
+    grid-area: boks1;
+}
+
+#boks2 {
+    grid-area: boks2;
+}
+
+#boks3 {
+    grid-area: boks3;
+}
+
+#boks4 {
+    grid-area: boks4;
+}
+
+
+/* Om Fiskehallen */
+
+
+.container {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+}
+
+.container .title {
+    letter-spacing: 1rem;
+}
+
+.container h1 {
+    font-size: 4.5rem;
+    margin-right: -1rem;
+    letter-spacing: 1rem;
+
+}
+
+
+.container h2 {
+    font-size: 6rem;
+    margin-right: -1rem;
+    color: #fff;
+    z-index: 6;
+    opacity: 0.8;
+    font-family: futura;
+
+}
+
+@-webkit-keyframes h2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h2 {
+    -webkit-animation: h2 5s;
+}
+
+
+h4 {
+    font-size: 20px;
+    padding-bottom: 3%;
+    color: white;
+}
+
+.fotekst {
+    margin-bottom: 20%;
+    text-align: center;
+
+}
+
+p {
+    font-size: 2rem;
+    text-align: justify;
+
+}
+
+h2 {
+    font-size: 15px;
+}
+
+.quote {
+    font-size: 2rem;
+}
+
+.auktiontekst {
+    font-size: 20px;
+    color: grey;
+    letter-spacing: normal;
+    text-transform: none;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    line-height: 2rem;
+    padding: 5%;
+    line-height: 2.5rem;
+
+}
+
+.between {
+    height: 20rem;
+    position: relative;
+    opacity: 0.5;
+}
+
+
+.betweenom {
+    height: 25rem;
+    position: relative;
+
+}
+
+.betweenauktion {
+    height: 15rem;
+    position: relative;
+}
+
+.betweenvideo {
+    height: 25rem;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+/* Tekst på billeder */
+
+.bg {
+    width: 100%;
+    margin-left: 5%;
+
+}
+
+.bgwell {
+    width: 100%;
+    margin-left: 30%;
+
+}
+
+.bgroeg {
+    width: 100%;
+    margin-right: 30%;
+}
+
+.bgmad,
+h1 {
+    color: white;
+    width: 100%;
+    margin-right: 20%;
+}
+
+
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+hvidtekst {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Container */
+
+.container .fo {
+    background-image: url("../images/fisk1.JPG");
+    opacity: 0.8;
+    padding: 8rem 0;
+}
+
+
+.container .auk {
+    background-image: url("../images/auktion.JPG");
+    opacity: 0.9;
+    padding: 10rem 0;
+}
+
+.container .ko {
+    background-image: url("../images/auktion2.JPG");
+    padding-bottom: 20rem;
+    padding-top: 10rem;
+
+}
+
+.container .we {
+    background-image: url("../images/wellfish.JPG");
+    opacity: 0.8;
+    padding: 20rem 0;
+}
+
+
+
+.container .roeg {
+    background-image: url("../images/roegeri.jpg");
+    padding: 20rem 0;
+}
+
+
+.container .fi {
+    background-image: url("../images/fiskehallen.JPG");
+    opacity: 0.8;
+    padding: 20rem 0;
+}
+
+.container .mad {
+    background-image: url("../images/mad.jpg");
+    padding: 10rem 0;
+}
+
+
+.container .vi {
+    background-image: url("../images/planker.jpg");
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+
+}
+
+
+
+
+
+
+
+/* YouTube videoer */
+
+#web1 {
+    width: 680px;
+
+}
+
+#web2 {
+    width: 680px;
+}
+
+
+
+
+
+
+
+
+/* parallax */
+
+.container .parallax {
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.musemarkoer {
+    cursor: pointer;
+}
+
+
+/* Overskrifter */
+
+.auktion {
+    color: #2FA04B;
+}
+
+.wellfish {
+    color: #2D7BBE;
+}
+
+.fiskehallen {
+    color: #C41A1A;
+}
+
+.fiskere {
+    color: gray;
+}
+
+.roegeri {
+    color: gray;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer1 {
+    margin-left: 10px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.footerskrift {
+    font-family: DIN Condensed;
+    font-size: 30px;
+    color: #BA0808;
+}
+
+.pfooter {
+    font-size: 20px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERY LAPTOP AND ABOVE*/
+
+@media all and (min-width: 1024px) {
+
+    .hidden {
+        display: none;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* til telefon*/
+
+@media all and (max-width: 599px) {
+
+    header {
+        display: block;
+    }
+
+    .logo {
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #burger {
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    #burger label {
+        display: block;
+        font-size: 3em;
+        cursor: pointer;
+    }
+
+    #toggle:checked + #main-nav {
+        display: block;
+    }
+
+    nav {
+        position: absolute;
+        top: 64.031px;
+    }
+
+    #main-nav {
+        display: none;
+    }
+
+    #main-nav li {
+        text-align: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        display: flex;
+    }
+
+
+    #main-nav a {
+        margin: 0;
+    }
+
+    #main-nav li:last-of-type {
+        border-bottom: none;
+        display: flex;
+
+    }
+
+}
