@@ -11,7 +11,8 @@ html body {
 }
 
 p {
-    font-family: 'Assistant', sans-serif;}
+    font-family: 'Assistant', sans-serif;
+}
 
 
 header {
@@ -154,6 +155,10 @@ h3 {
     font-size: 40px;
 }
 
+h4 {
+    font-family: 'Assistant', sans-serif;; 
+}
+
 .center {
     text-align: center;
     font-size: 40px;
@@ -173,6 +178,7 @@ h3 {
 
 .vorestekst {
     width: 40%;
+    text-align: center; 
 }
 
 .afdeligsboks {
@@ -232,8 +238,8 @@ h3 {
 }
 
 .nyheder {
-    background-color: beige; 
-    height: 400px; 
+    background-image: url(../images/havneknejpe.JPG);
+    height: 300px; 
     margin: 2%; 
     
 }
@@ -241,13 +247,67 @@ h3 {
 .nyhedtitel {
     color: #BA0808; 
     text-align: center; 
+    padding-top: 4%;
    
 }
 
 .nyhedstekst {
     padding: 4%; 
     text-align: center; 
+    font-size: 20px; 
+    color: white; 
+    
 }
+
+.menuforside {
+    
+    background-image: url(../images/menu.jpg); 
+    background-repeat: no-repeat;
+    height: 300px; 
+    margin:  2%; 
+    opacity: 0.9; 
+}
+
+.menukortforside {
+    color: #BA0808; ; 
+    text-align: center; 
+    padding-top: 4%;
+
+}
+
+.button, .button1 {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 0.1em 4em;
+    cursor: hand;
+    transition: background .4s ease-in, transform .25s ease-in-out;
+    width: 15%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-align: center; 
+
+}
+
+
+.button:hover {
+    background-color: #BA0808; 
+
+}
+
+.button1:hover {
+    background-color: #BA0808; 
+}
+
+.button1 {
+    margin-top: 100px; 
+}
+
+.laesmere {
+    color: white; 
+    font-family: futura; 
+}
+
 
 
 
@@ -307,6 +367,9 @@ h3 {
 
 .boks3 {
     text-align: center;
+    display: flex; 
+    padding-left: 5%;
+    height: 200px; 
 }
 
 .aabningstider {
@@ -316,7 +379,16 @@ h3 {
 
 .aabningstekst {
     font-size: 20px; 
-    margin-left: 10px;
+    width: 200px;
+}
+
+.aabning1 {
+    width: 40%; 
+}
+
+.aabning2 {
+    width: 40%; 
+    font-family: 'Assistant', sans-serif;
 }
 
 .bokstekst {
@@ -325,6 +397,15 @@ h3 {
     font-size: 200%;
 }
 
+.tider {
+    font-size: 20px; 
+}
+
+.obs {
+    margin-left: 45px; 
+    font-size: 20px; 
+    margin-bottom: 20px; 
+}
 
 .boks4 {
     background-image: url(../images/menukort.jpg);
@@ -387,14 +468,27 @@ h3 {
 }
 
 .event {
-    width: 50%;
+    height: 550px; 
+    width: 450px;
+    border: 3px solid #BA0808; 
+    margin-left: 20px; 
+    margin-top: 30px; 
+    
 
 }
 
 .eventtekst {
     font-size: 300%;
     color: white;
+    padding-top: 10%; 
+    text-align: center; 
 }
+
+ .aabningroed {
+    width: 300px; 
+     margin-left: 100px; 
+     margin-bottom: 20px; 
+    }
 
 
 
@@ -470,6 +564,12 @@ h3 {
     /* Resize the background image to cover the entire container */
 }
 
+.positionkontakt {
+    display: flex; 
+    flex-direction: column; 
+    padding-top: 200px; 
+}
+
 
 .bgkontakt {
     display: flex;
@@ -477,10 +577,8 @@ h3 {
     flex-wrap: wrap;
 }
 
-.kontkatboks {}
-
 .kontakt {
-    width: 45%;
+    width: 90%;
     background-color: beige;
     margin-left: 2%;
     padding: 2%;
@@ -491,13 +589,10 @@ h3 {
 }
 
 
-
-
-.findos {}
-
 .kontaktoverskrift {
     font-size: 300%;
     color: white;
+    padding-left: 27%; 
 
 }
 
@@ -631,13 +726,13 @@ h2 {
 
 .bgwell {
     width: 100%;
-    margin-left: 30%;
+    margin-left: 5%;
 
 }
 
 .bgroeg {
-    width: 100%;
-    margin-right: 30%;
+    width: 90%;
+    
 }
 
 
@@ -695,7 +790,7 @@ h1 {
 .container .we {
     background-image: url("../images/wellfish.JPG");
     opacity: 0.8;
-    padding: 20rem 0;
+    padding: 10rem 0;
 }
 
 
@@ -703,6 +798,7 @@ h1 {
 .container .roeg {
     background-image: url("../images/laks.jpg");
     padding: 20rem 0;
+    opacity: 0.9; 
 }
 
 
@@ -760,7 +856,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    background-attachment:fixed;  
+    background-attachment:;  
     overflow: hidden;
 }
 
@@ -793,8 +889,8 @@ h1 {
 
 
 
-.dinfisker {
-    text-align: center;
+h4 {
+    margin-left: 80%;
 }
 
 
@@ -808,12 +904,13 @@ footer {
     text-align: center;
     padding: 1%;
     text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: wrap; 
     text-align: center;
     background-color: beige;
     justify-content: space-evenly;
+     
 
 }
 
@@ -900,6 +997,7 @@ footer {
         display: flex;
 
     }
+    
 
 
     /* Forside */
@@ -996,9 +1094,9 @@ footer {
     }
 
     #video {
-        width: 60%;
+        width: 70%;
         margin-top: %;
-        margin-left: 20%;
+        margin-left: 15%;
     }
     
     .covertekst {
@@ -1031,6 +1129,23 @@ footer {
     .center {
         margin-bottom: 5%;
     }
+    
+    .forsidecontainer {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .nyheder {
+        width: 48%;
+    }
+    
+    .menuforside {
+        width: 48%; 
+    }
+    
+    .button1 {
+        margin-top: 20%; 
+    }
 
     /* Restaurant */
     
@@ -1041,6 +1156,31 @@ footer {
     .boks2 {
         width: 45%; 
         margin-top: 60px; 
+    }
+    
+    .boks3 {
+        margin-left: 105px; 
+    }
+    .placeringrestaurant {
+      display: flex; 
+        flex-direction: row; 
+        width: 100%; 
+    }
+    
+    
+    .aabningsboks {
+        display: flex; 
+        flex-direction: column;
+        width: 40%; 
+    }
+    
+    .aabningstekst {
+        width: 200px; 
+    }
+    
+    .obs {
+        margin-left: 130px;
+     
     }
     
     
@@ -1062,6 +1202,24 @@ footer {
         margin-top: 20px; 
     }
     
+    /* Kontakt */
+    
+    .positionkontakt {
+        flex-direction: row; 
+    }
+    
+    .kontaktboks {
+        width: 50%; 
+        padding-top: 70px; 
+        
+    }
+    
+    .aabningroed {
+        width: 100%; 
+        margin-left: 0%; 
+    }
+    
+   
     
     
     /* Om */
@@ -1085,23 +1243,39 @@ footer {
     .afdeling1 {
         width: 20%; 
     }
+     
     
-    /* Footer */
+    .container .parallax{
+         background-attachment:fixed;
+    }
+    
+    .bgwell {
+        margin-left: 30%; 
+    }
+    
+     .kenddinfisker {
+        flex-direction: row;
+    }
+    
+    .container we {
+        padding: 20rem 0;
+    }
+    
+   
+    
+    /* Footer */.
 
 
     footer {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-evenly;  
         align-items: center; 
     }
     
-    footer1 {
-     text-align: center; 
-    }
-
     .footerkasse {
-
+        width: 300px; 
     }
+
 
 
 
