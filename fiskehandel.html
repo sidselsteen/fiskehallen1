@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="da">
 
+
 <head>
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
     <title>Fiskehallen Thyborøn</title>
@@ -12,11 +15,13 @@
     <meta name="description" content="Fiskehallen - ">
 
     <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-     <header>
+    <header>
        
 
             <section id="burger">
@@ -29,10 +34,18 @@
             <input type="checkbox" id="toggle" class="hidden">
             <ul id="main-nav">
                 <li><a href="index.html">Forside</a></li>
-                <li><a href="">Vores afdelinger</a></li>
+                <li class="dropdown">
+  <button class="dropbtn">Vores afdelinger</button>
+  <div class="dropdown-content">
+                <a href="restaurant.html">Restaurant</a>
+                   <a href="fiskehandel.html">Fiskehandel</a>
+                   <a href="havneknejpen.html">Havneknejpe</a>
+                    </div>
+                </li>
                 <li><a href="havneknejpen.html">Events</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
                 <li> <a href="om.html">Om Fiskehallen</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                
             </ul>
  
         </nav>
@@ -62,22 +75,84 @@
         <div class="boks6">
             <img class="fiskehandelimg" src="images/fiskehandel.jpg" alt="fiskehandel">
         </div>
+        <div class="aabningsboks">
+
+            <img class="krabbe" src="images/krabbe.jpg" alt="karbbe">
+
+           
+
+               
+               <div class="aabningbutik">
+                
+                    <h3 class="aabningstider">ÅBNINGSTIDER<hr class="aabningroed"></h3>
+
+                <div class="boksbutik">
+                    <div class="aabning1">
+                        <p class="aabningstekst">Fra d. 2/1-29/4<br><br><br><br>
+                            Fra d. 30/4-1/7 <br><br><br>
+                            Fra d. 2/7-12/8<br><br><br>
+                            Fra d. 13/8-23/9<br><br><br>
+                            Fra d. 24/9-30/12
+                    </div>
+                    
+                    <div class="aabning">
+                        <p class="aabningstekstbutik">
+                            Mandag-fredag<br>
+                            Torsdag <br>
+                            Lørdag<br>
+                            Søndag<br>
+                            Mandag-fredag<br>
+                            Lørdag<br>
+                            Søndag<br>
+                            Mandag-fredag<br>
+                            Lørdag<br>
+                            Søndag<br>
+                            Mandag-fredag<br>
+                            Lørdag<br>
+                            Søndag<br>
+                            Mandag-fredag<br>
+                            Torsdag<br>
+                            Lørdag<br>
+                            Søndag<br>
+                        </p>
+
+                    </div>
+                    
+                     <p class="tiderbutik">
+                        09.30-15<br>
+                        09.30-17<br>
+                        09.30-13<br>
+                        Lukket<br>
+                        09.30-17<br>
+                        09.30-13<br>
+                        Lukket<br>
+                        09.30-17<br>
+                        09.30-15<br>
+                        11.00-15<br>
+                        09.30-17<br>
+                        09.30-13<br>
+                        Lukket<br>
+                        09.30-15<br>
+                        09.30-17<br>
+                        09.30-13<br>
+                        Lukket
+
+                    </p>
+                    
+                    
 
 
-        <img class="krabbe" src="images/krabbe.jpg" alt="karbbe">
 
 
+                </div>
+                </div>
 
-        <div class="boks3">
-            <h3 class="aabningstider">ÅBNINGSTIDER</h3>
+            
         </div>
-
-
+        
 
     </div>
 
-
-
 </body>
-    
+
 </html>
