@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
     <title>Fiskehallen Thyborøn</title>
@@ -13,29 +15,39 @@
     <meta name="description" content="Fiskehallen - ">
 
     <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <header>
+       
 
+            <section id="burger">
 
-        <section id="burger">
+                <label for="toggle">&#9776;</label>
+                <a href="index.html"><img class="logo" src="images/logo1.png" alt="logo"></a>
 
-            <label for="toggle">&#9776;</label>
-            <a href="index.html"><img class="logo" src="images/logo1.png" alt="logo"></a>
-
-        </section>
-        <nav>
+           </section>
+ <nav>
             <input type="checkbox" id="toggle" class="hidden">
             <ul id="main-nav">
                 <li><a href="index.html">Forside</a></li>
-                <li><a href="">Vores afdelinger</a></li>
+                <li class="dropdown">
+  <button class="dropbtn">Vores afdelinger</button>
+  <div class="dropdown-content">
+                <a href="restaurant.html">Restaurant</a>
+                   <a href="fiskehandel.html">Fiskehandel</a>
+                   <a href="havneknejpen.html">Havneknejpe</a>
+                    </div>
+                </li>
                 <li><a href="havneknejpen.html">Events</a></li>
+                 <li> <a href="om.html">Om Fiskehallen</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
-                <li> <a href="om.html">Om Fiskehallen</a></li>
+               
             </ul>
-
+ 
         </nav>
 
     </header>
@@ -72,14 +84,14 @@
 
                 <div class="boks3">
                     <div class="aabning1">
-                        <p class="aabningstekst">Fra d. 10/2-26/2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                            Fra d. 24/3-28/6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                        <p class="aabningstekst">Fra d. 10/2-26/2 <br>
+                            Fra d. 24/3-28/6 <br>
                             Påskedagene <br>
                             Pinsen <br>
-                            Fra d. 29/6-26/8 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                            Fra d. 27/8-16/9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
-                            Fra d. 17/9-26/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+                            Fra d. 29/6-26/8 <br>
+                            Fra d. 27/8-16/9 <br>
+                            <br>
+                            Fra d. 17/9-26/10 
                     </div>
 
 
@@ -106,9 +118,6 @@
                         11.30-15<br>
                         11.30-21<br>
                         11.30-15<br>
-
-
-
 
                     </p>
 
