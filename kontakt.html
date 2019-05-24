@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="da">
-<!--Language set to English. Change to da for Danish if needed-->
+
 
 <head>
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
     <title>Fiskehallen Thyborøn</title>
@@ -13,6 +15,8 @@
     <meta name="description" content="Fiskehallen - ">
 
     <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
 
 </head>
 
@@ -30,10 +34,18 @@
             <input type="checkbox" id="toggle" class="hidden">
             <ul id="main-nav">
                 <li><a href="index.html">Forside</a></li>
-                <li><a href="">Vores afdelinger</a></li>
+                <li class="dropdown">
+  <button class="dropbtn">Vores afdelinger</button>
+  <div class="dropdown-content">
+                <a href="restaurant.html">Restaurant</a>
+                   <a href="fiskehandel.html">Fiskehandel</a>
+                   <a href="havneknejpen.html">Havneknejpe</a>
+                    </div>
+                </li>
                 <li><a href="havneknejpen.html">Events</a></li>
+                 <li> <a href="om.html">Om Fiskehallen</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
-                <li> <a href="om.html">Om Fiskehallen</a></li>
+               
             </ul>
  
         </nav>
