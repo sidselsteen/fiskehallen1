@@ -200,7 +200,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Assistant', sans-serif;; 
+    font-family: 'Assistant', sans-serif;
 }
 
 .center {
@@ -841,8 +841,6 @@ h1 {
 
 
 
-
-
 /* Container */
 
 .container .fo {
@@ -972,7 +970,7 @@ h1.fisker{
 
 
 h4 {
-    
+  padding-left: 20px;   
 }
 
 
@@ -983,10 +981,9 @@ h4 {
 footer {
     padding: 1%;
     text-decoration: none;
-    display: flex;   
+    display: flex;  
     background-color: beige;
-    justify-content: center; 
-    
+    padding-left: 165px; 
      
 
 }
@@ -1026,7 +1023,7 @@ footer {
     .logo {
         width: 90px;
         display: block;
-        margin-right: 150px;
+        margin-right: 220px;
         margin-bottom: 8px;
     }
 
@@ -1103,18 +1100,11 @@ footer {
     }
 
 
-    .auktion {}
-
     .kenddinfisker {
         display: flex;
         flex-direction: column;
 
     }
-
-
-    
-
-
 
 
 
@@ -1124,7 +1114,9 @@ footer {
     
 
 }
-} 
+}
+
+
 
 /* til tablet*/
 
@@ -1135,9 +1127,67 @@ footer {
         display: none;
     }
 
+    
+    
     /* Forside */
+    
+    .voresafdelinger {
+        flex-direction: row;
+    }
+    
+    .vores {
+        margin-left:  10px;
+    }
+   
+    .afdeling1 {
+        margin-left: 10px;
+        padding-top: 40px;
+    }
 
+    .afdeling2 {
+        margin-left: 80px;
+        padding-top: 40px;
+    }
+    
+    
+    /* Restaurant */ 
+    
+    hr {
+       padding-left: 200px; 
+    }
+    
+    /* Fiskehandel */ 
+    
+    .boksbutik {
+        height: 450px; 
+    }
+    
+    /* Havneknejpen */ 
+    
+    .aabningsboksknejpe {
+        margin-left: 60px;
+    }
+    
+    
+    /* Om */ 
+    
+   .container .vi {
+        flex-direction: column; 
+    }
 }
+    
+    
+    
+    /* Footer */ 
+    
+    .footerkasse {
+        padding: 3%;
+    }
+    
+    footer {
+         padding-left: 100px;
+    }
+
 
 
 
@@ -1417,18 +1467,25 @@ footer {
          
     }
     
+    .quote {
+        font-size: 1.5em;
+    }
+   
+    
     /* Footer */.
 
 
     footer {
         flex-direction: row; 
+       
     }
     
     .footerkasse {
         width: 300px; 
+        padding-left: 100px; 
     }
 
 } 
 
 
-}
+
