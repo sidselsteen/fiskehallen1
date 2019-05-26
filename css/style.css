@@ -1251,6 +1251,7 @@ footer {
     
     .aabningstekst {
         width: 200px; 
+        
     }
     
     .aabningstekstbutik {
@@ -1287,13 +1288,16 @@ footer {
     
     .aabningsboks {
         display: flex;  
-        flex-direction: column; 
+        flex-direction: row; 
     }
     
     .boksbutik {
         padding-left: 60px; 
     }
     
+    .aabningknejpe {
+        width: 550px;
+    }
     /* Knejpe */ 
     
 
