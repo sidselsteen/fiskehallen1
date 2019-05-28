@@ -145,7 +145,7 @@ Vi har fundet inspiration til vores drop down menu via dette link: https://www.w
 
 
 
-/* Forside */
+/* FORSIDE */
 
 #bghav {
     position: relative;
@@ -322,6 +322,8 @@ h4 {
 
 }
 
+/* LÆS MERE KNAP - har vi fundet indspiration til på W3Schools "https://www.w3schools.com/css/css3_buttons.asp"*/ 
+
 .button, .button1 {
     background-color: transparent;
     border: 2px solid white;
@@ -363,6 +365,9 @@ h4 {
 
 /* RESTAURANT */
 
+
+/* Baggrundsbille af restaurant */ 
+
 .boks1 {
     background-image: url(../images/rest.jpg);
     position: relative;
@@ -379,6 +384,7 @@ h4 {
     align-content: center;
 }
 
+/* Container til flex */ 
 
 .opsaetning {
     display: flex;
@@ -401,6 +407,9 @@ h4 {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+
+/* Tekst på billede */ 
 
 .covertekst {
     font-size: 300%;
@@ -461,6 +470,8 @@ h4 {
     margin-bottom: 20px; 
 }
 
+/* Baggrundsbillede til menukort */ 
+
 .boks4 {
     background-image: url(../images/menukort.jpg);
     position: relative;
@@ -468,11 +479,8 @@ h4 {
     margin-top: ;
     height: 300px;
     background-position: center;
-    /* Center the image */
     background-repeat: no-repeat;
-    /* Do not repeat the image */
     background-size: cover;
-    /* Resize the background image to cover the entire container */
     width: 100%;
     align-content: center;
 }
@@ -493,6 +501,9 @@ h4 {
 
 /* Havneknejpen */
 
+
+/* Baggrundsbillede af Havneknejpen */ 
+
 .havneknejpeboks {
     background-image: url(../images/knejpe.JPG);
     position: relative;
@@ -500,11 +511,8 @@ h4 {
     margin-top: ;
     height: 400px;
     background-position: center;
-    /* Center the image */
     background-repeat: no-repeat;
-    /* Do not repeat the image */
     background-size: cover;
-    /* Resize the background image to cover the entire container */
     width: 100%;
     align-content: center;
 }
@@ -529,6 +537,8 @@ h4 {
     font-size: 1em; 
 }
 
+/* Baggundsbillede af event */ 
+
 .eventboks {
     background-image: url(../images/havneknejpe.JPG);
     position: relative;
@@ -536,11 +546,8 @@ h4 {
     margin-top: ;
     height: 600px;
     background-position: center;
-    /* Center the image */
     background-repeat: no-repeat;
-    /* Do not repeat the image */
     background-size: cover;
-    /* Resize the background image to cover the entire container */
     width: 100%;
     align-content: center;
 }
@@ -586,8 +593,10 @@ h4 {
 
 
 
-/* Fiskebutik */
+/* FISKEBUTIK */
 
+
+/* Baggrundsbillede til fiskehandlen */ 
 
 .boks7 {
     background-image: url(../images/laks.jpg);
@@ -596,23 +605,11 @@ h4 {
     margin-top: ;
     height: 400px;
     background-position: center;
-    /* Center the image */
     background-repeat: no-repeat;
-    /* Do not repeat the image */
     background-size: cover;
-    /* Resize the background image to cover the entire container */
     width: 100%;
     align-content: center;
 }
-
-/* .boks5 {
-    background-image: url(../images/krabbe.jpg); 
-    width: 45%;  
-    margin-left: 2%; 
-    padding: 2%; 
-    margin-top: 2%; 
-    margin-bottom: 2%; 
-} */
 
 
 .fiskehandelimg {
@@ -649,9 +646,7 @@ h4 {
 
 
 
-
-
-/* Kontakt */
+/* KONTAKT */
 
 #bgkontakt {
     position: relative;
@@ -707,6 +702,9 @@ h4 {
     padding-top: 3%;
 }
 
+
+/* vores kort som viser hvor Fiskehallen ligger, har vi hentet på "https://maps.google.com/maps?q=fiskehallen&t=&z=13&ie=UTF8&iwloc=&output=embed" */  
+
 .mapouter {
     position: relative;
     text-align:right;
@@ -722,8 +720,10 @@ overflow:hidden;
 }
 
 
-/* Om Fiskehallen */
+/* OM FISKEHALLEN */
 
+
+/* Containere */ 
 
 .container {
     width: 100%;
@@ -752,6 +752,8 @@ overflow:hidden;
     font-family: futura;
 
 }
+
+/* Får titel til at 'fade' ind */ 
 
 @-webkit-keyframes h2 {
     0% {
@@ -808,6 +810,9 @@ h2 {
 
 }
 
+
+/* Delene med tekst mellem billederne */ 
+
 .between {
     height: 10rem;
     position: relative;
@@ -842,9 +847,6 @@ h2 {
 
 
 
-
-
-
 /* Tekst på billeder */
 
 .bg {
@@ -863,7 +865,6 @@ h2 {
     width: 90%;
     
 }
-
 
 
 h1 {
@@ -890,10 +891,7 @@ h1 {
 
 
 
-
-
-
-/* Container */
+/* Container til hvert afsnit */
 
 .container .fo {
     background-image: url("../images/fisk1.JPG");
@@ -953,9 +951,10 @@ h1 {
 }
 
 
+/* Styling til teksterne mellem billederne */ 
 
 .style {
-    float: left; 
+    float: left;
     width: 50%; 
 }
 
@@ -999,7 +998,7 @@ iframe {
 
 
 
-/* parallax */
+/* Parallax */
 
 .container .parallax {
     width: 100%;
@@ -1080,7 +1079,7 @@ footer {
 
 
 
-
+/* Et skjult element i headeren, for at få ventreret logoet */ 
 
 .skjult {
         display: block; 
@@ -1090,7 +1089,7 @@ footer {
 
 
 
-/* til telefon*/
+/* TIL TELEFON */
 
 @media all and (max-width: 599px) {
 
@@ -1117,8 +1116,6 @@ footer {
     }
     
     
-    
-
     #burger label {
         display: block;
         font-size: 3em;
@@ -1159,7 +1156,7 @@ footer {
     
 
 
-    /* Forside */
+    /* FORSIDE */
 
     #video {
         width: 100%;
@@ -1176,7 +1173,8 @@ footer {
         
     }
     
-    /* Restaurant */ 
+    /* RESTAURANT */ 
+    
     .boks2 {
         width: 100%;
         padding:0;
@@ -1190,13 +1188,11 @@ footer {
     boks3 {
         width: 100%; 
     }
-    
-      /* Restaurant */ 
-    
-   
+
     
    
-    /* Fiskehandel */
+     
+    /* FISKEHANDEL */
 
     .boks6 {
         width: 100%;
@@ -1208,7 +1204,7 @@ footer {
     
 
     
-    /* Havneknejpe */
+    /* HAVNEKNEJPE */
     
     .covertekst {
         font-size: 200%; 
@@ -1225,15 +1221,14 @@ footer {
 
     }
     
- 
-
     .kenddinfisker {
         display: flex;
         flex-direction: column;
 
     }
     
-/* Kontakt */
+/* KONTAKT */
+    
       .kontaktoverskrift {
        padding-left: 15%;  
     }
@@ -1258,16 +1253,13 @@ footer {
    align-items: center;  
     
 
-}
-    
-  
-    
+}  
     
 }
 
 
 
-/* til tablet*/
+/* TIL TABLET */
 
 @media all and (min-width: 600px) {
 
@@ -1282,7 +1274,7 @@ footer {
     
     
     
-    /* Forside */
+    /* FORSIDE */
     
     .voresafdelinger {
         flex-direction: row;
@@ -1303,19 +1295,23 @@ footer {
     }
     
     
-    /* Restaurant */ 
+    /* RESTAURANT */ 
+    
+    /* Denne røde linje - <hr> - har vi fundet inspiration til på W3Schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_style_hr */ 
+    
     
     hr {
        padding-left: 200px; 
     }
     
-    /* Fiskehandel */ 
+    
+    /* FISKEHANDEL */ 
     
     .boksbutik {
         height: 450px; 
     }
     
-    /* Havneknejpen */ 
+    /* HAVNEKNEJPEN */ 
     
     .aabningsboksknejpe {
         margin-left: 60px;
@@ -1323,14 +1319,14 @@ footer {
     }
     
     
-    /* Om */ 
+    /* OM */ 
     
    .container .vi {
         flex-direction: column; 
     }
 
     
-    /* Kontakt */
+    /* KONTAKT */
     
   
     
@@ -1348,7 +1344,7 @@ footer {
 }
 
 
-/* Til laptop og over */
+/* TIL LAPTOP OG OVER */
 
 @media all and (min-width: 1024px) {
 
@@ -1372,7 +1368,7 @@ footer {
         margin-top: 10px; 
     }
 
-    /* Forside */
+    /* FORSIDE */
 
     
     .forsidetekst {
@@ -1438,7 +1434,7 @@ footer {
         margin-top: 20%; 
     }
 
-    /* Restaurant */
+    /* RESTAURANT */
     
     .opsaetning {
         flex-direction: row; 
