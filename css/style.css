@@ -171,7 +171,7 @@ ul {
     font-family: futura; 
     color: white;
     font-size: 2rem;
-    margin-left: 2%;
+    margin-left: 4%;
 
 
 }
@@ -179,7 +179,8 @@ ul {
 .forsidetekst1 {
     font-size: 2.5em;
     padding-top: 50%;
-    margin-left: 0%;
+    margin-left: %;
+  
 }
 
 hr {
@@ -689,7 +690,7 @@ h4 {
 
 .kontakt {
     width: 85%;
-    height: 20em; 
+    height: 10em; 
     background-color: beige;
     margin-left: 2%;
     padding: 2%;
@@ -711,21 +712,21 @@ h4 {
 
 .kontaktinfo {
     text-align: center; 
-    padding-top: 12%;
+    padding-top: 3%;
 }
 
-.mapouter 
-{position: relative;
+.mapouter {
+    position: relative;
     text-align:right;
-    height:500px;
-    width:600px;
+height:100%;
+    width:100%;
 }
 
-.gmap_canvas{
+#gmap_canvas{
 overflow:hidden;
     background:none!important;
-    height:500px;
-    width:600px;
+    height:100%;
+    width: 100%;
 }
 
 
@@ -803,16 +804,15 @@ h2 {
 }
 
 .auktiontekst {
-    font-size: 20px;
+    width: 100%; 
+    font-size: 1em;
     color: grey;
     letter-spacing: normal;
     text-transform: none;
     text-align: center;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    line-height: 2rem;
+    line-height: 0.5rem;
     padding: 5%;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
 
 }
 
@@ -830,11 +830,11 @@ h2 {
 
 }
 
-.betweenauktion {
-    height: 15rem;
+.betweenauktion { 
+    height: 30rem;
     position: relative;
      display: flex; 
-    flex-direction: column; 
+    flex-direction: column;   
 }
 
 .betweenvideo {
@@ -1106,6 +1106,10 @@ footer {
         display: block;
         padding: 0%; 
     }
+    
+    .forsidetekst {
+        margin-left: 0%; 
+    } 
 
     .logo {
         width: 90px;
@@ -1192,6 +1196,10 @@ footer {
         font-size: 300%; 
     }
     
+    boks3 {
+        width: 100%; 
+    }
+    
    
     /* Fiskehandel */
 
@@ -1201,6 +1209,16 @@ footer {
     
     .aabningsboks {
         width: 100%;
+    }
+    
+    /* Havneknejpe */
+    
+    .covertekst {
+        font-size: 200%; 
+    }
+    
+    .havneknejpeboks {
+        height: 300px;
     }
     
     /* OM */
@@ -1217,7 +1235,18 @@ footer {
 
     }
     
-
+/* Kontakt */
+      .kontaktoverskrift {
+       padding-left: 15%;  
+    }
+    
+    .kontakt {
+        margin-left: 5%; 
+    }
+    
+    .positionkontakt {
+        padding-top: 5%; 
+    }
 
 
     .footerkasse {
@@ -1308,6 +1337,9 @@ footer {
     }
 
     
+    /* Kontakt */
+    
+  
     
     
     /* Footer */ 
@@ -1349,10 +1381,15 @@ footer {
 
     /* Forside */
 
+    
+    .forsidetekst {
+        margin-left: 4%; 
+    } 
+    
     .forsidetekst1 {
         font-size: 4.3em;
         padding-top: 22%;
-        
+       margin-left: 4%; 
     }
 
     #video {
@@ -1528,6 +1565,8 @@ footer {
     
     
     
+    
+    
     /* Kontakt */
     
     .positionkontakt {
@@ -1611,6 +1650,22 @@ footer {
      display: flex; 
     flex-direction: row; 
 }
+    
+    
+    .auktiontekst {
+        width: 80%; 
+    font-size: 20px;
+    color: grey;
+    letter-spacing: normal;
+    text-transform: none;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    line-height: 2rem;
+    padding: 5%;
+    line-height: 2.5rem;
+
+}
 
     
     
@@ -1620,6 +1675,7 @@ footer {
     
      .fisker { 
         width: 100%; 
+         margin-left: 2%;
     }
     
     
