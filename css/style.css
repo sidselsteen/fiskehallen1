@@ -366,7 +366,7 @@ h4 {
 /* RESTAURANT */
 
 
-/* Baggrundsbille af restaurant */ 
+/* Baggrundsbille af restaurant - billede tilsendt at Anders Olesen */ 
 
 .boks1 {
     background-image: url(../images/rest.jpg);
@@ -441,7 +441,7 @@ h4 {
 
 .aabningstekst {
     font-size: 1em; 
-    width: 200px;
+    width: 100%;
 }
 
 .aabning1 {
@@ -722,6 +722,8 @@ overflow:hidden;
 
 /* OM FISKEHALLEN */
 
+
+/* Til at opstille vores 'Om' side i et parallax, har vi brugt materiale fra Morten Bonderup's undervisning */ 
 
 /* Containere */ 
 
@@ -1077,9 +1079,22 @@ footer {
     color: black;
 }
 
+.some {
+     padding-top: 3%; 
+    padding-bottom: 2%; 
+    text-align: center; 
+}
+
+.instaicon {
+    width: 20%;   
+}
+
+.facebookicon {
+   width: 20%; 
+}
 
 
-/* Et skjult element i headeren, for at få ventreret logoet */ 
+/* Et skjult element i headeren, for at få centreret logoet */ 
 
 .skjult {
         display: block; 
@@ -1246,6 +1261,11 @@ footer {
         width: 50%; 
     }
     
+    .some {
+        width: 50%; 
+        text-align: center; 
+    }
+    
 footer {
     flex-direction: column;
     padding-top: 2%;
@@ -1294,6 +1314,13 @@ footer {
         padding-top: 40px;
     }
     
+    #video {
+        width: 100%; 
+    }
+    
+  
+    
+  
     
     /* RESTAURANT */ 
     
@@ -1301,14 +1328,30 @@ footer {
     
     
     hr {
-       padding-left: 200px; 
+       padding-left: 30%;
     }
     
+    
+      .boks2 {
+        width: 92%; 
+    }
     
     /* FISKEHANDEL */ 
     
     .boksbutik {
-        height: 450px; 
+        height: 60%;  
+        width: 100%;
+        
+    
+    }
+    
+    .aabning1 {
+        width: 20%; 
+        
+    }
+    
+    .boks6 {
+        width: 100%;
     }
     
     /* HAVNEKNEJPEN */ 
@@ -1335,6 +1378,10 @@ footer {
     
     .footerkasse {
         padding: 3%;
+    }
+    
+    .some {
+        padding-top: 7%;
     }
     
     footer {
@@ -1515,6 +1562,12 @@ footer {
     .aabningknejpe {
         width: 550px;
     }
+    
+     
+    .aabning1 {
+        width: 40%; 
+        
+    }
     /* Knejpe */ 
     
 
@@ -1694,14 +1747,17 @@ iframe {
     /* Footer */.
 
 
+    .some {
+    }
+    
     footer {
         flex-direction: row; 
        
     }
     
     .footerkasse {
-        width: 300px; 
-        padding-left: 100px; 
+        width: 250px; 
+      
     }
 
 } 
