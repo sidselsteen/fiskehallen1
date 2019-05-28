@@ -42,12 +42,7 @@ https://github.com/michellemotivates/flexnavigation?fbclid=IwAR0_c0ZLoXCn9eAdJbD
     margin-left: .5em;
 }
 
-/*  .skjult {
-      display: none; 
-        visibility: hidden; 
-      width: 10px; 
-    }
-*/ 
+
 
 #main-nav a {
     display: block;
@@ -108,9 +103,9 @@ ul {
 }
 
 
-/* DROP DOWN */ 
+/* DROP DOWN 
+Vi har fundet inspiration til vores drop down menu via dette link: https://www.w3schools.com/howto/howto_css_dropdown.asp */ 
 
-/* Vi har fundet inspiration til vores drop down menu via dette link: https://www.w3schools.com/howto/howto_css_dropdown.asp */ 
 
 .dropbtn {
   color: black;
@@ -158,12 +153,11 @@ ul {
     opacity: 0.8;
     height: 750px;
     background-position: center;
-    /* Center the image */
+    /* Centrer billedet */
     background-repeat: no-repeat;
-    /* Do not repeat the image */
+    /* Billedet gentager ikke */
     background-size: cover;
-
-    /* Resize the background image to cover the entire container */
+    /* Gør så billedet udfylder hele containeren */
 }
 
 
@@ -172,8 +166,6 @@ ul {
     color: white;
     font-size: 2rem;
     margin-left: 4%;
-
-
 }
 
 .forsidetekst1 {
@@ -831,10 +823,10 @@ h2 {
 }
 
 .betweenauktion { 
-    height: 30rem;
+    height: 25rem;
     position: relative;
      display: flex; 
-    flex-direction: column;   
+    flex-direction: column; 
 }
 
 .betweenvideo {
@@ -1120,7 +1112,6 @@ footer {
 
 
     #burger {
-        /* justify-content:space-between; */
         align-items: center;
 
     }
@@ -1200,6 +1191,10 @@ footer {
         width: 100%; 
     }
     
+      /* Restaurant */ 
+    
+   
+    
    
     /* Fiskehandel */
 
@@ -1210,6 +1205,8 @@ footer {
     .aabningsboks {
         width: 100%;
     }
+    
+
     
     /* Havneknejpe */
     
@@ -1227,7 +1224,8 @@ footer {
         height: 400px;
 
     }
-
+    
+ 
 
     .kenddinfisker {
         display: flex;
@@ -1262,12 +1260,7 @@ footer {
 
 }
     
-    /* Restaurant */ 
-    
-    boks2 {
-        width: 100%; 
-    }
-    
+  
     
     
 }
